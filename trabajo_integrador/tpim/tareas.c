@@ -1,17 +1,13 @@
 #include "tareas.h"
 
-// -------
-// Colas |
-// -------
+// Colas 
 QueueHandle_t queue_adc;              // Cola para datos del ADC
 QueueHandle_t queue_display;          // Cola para datos del display
 QueueHandle_t queue_display_variable; // Cola para variable a mostrar en el display
 QueueHandle_t queue_lux;              // cola para datos de lux (porcentaje)
 QueueHandle_t queue_lux_raw;          // cola para datos de lux (valor bruto)
 
-// ----------
-// Semaforo |
-// ----------
+// Semaforo 
 xSemaphoreHandle semphr_buzz; // Interrupción del Sensor IR
 xSemaphoreHandle semphr_usr;  // Boton de USER
 
@@ -21,9 +17,7 @@ TaskHandle_t DisplayHandler;
 // Setpoint
 float setpoint = 50.0f;
 
-// --------------------------
-// Definición de las tareas |
-// --------------------------
+// Definición de las tareas 
 
 // Tarea 0: Inicialización de periféricos y recursos
 void tsk_init(void *params)
