@@ -127,6 +127,7 @@ static inline void wrapper_display_on(gpio_t com)
 static inline void wrapper_display_on_both(void)
 {
 	// Pongo un cero en ambos ánodos
+	// Esto también me tiró error en algún momento de mi vida
 	wrapper_display_on((gpio_t){COM_1});
 	wrapper_display_on((gpio_t){COM_2});
 }

@@ -269,6 +269,7 @@ float wrapper_bh1750_read(void)
     // Resultado
     uint8_t res[2] = {0};
     // Lectura del sensor
+    // Juro que esto me tiró error
     I2C_MasterRepeatedStart(I2C1, BH1750_ADDR, kI2C_Read);
     I2C_MasterReadBlocking(I2C1, res, 2, kI2C_TransferDefaultFlag);
     I2C_MasterStop(I2C1);
