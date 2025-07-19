@@ -2,9 +2,9 @@
 
 ## Descripción
 
-Este proyecto fue desarrollado en el marco del curso de **Sistemas Embebidos** de la **Universidad Tecnológica Nacional – Facultad Regional Avellaneda**, dictado por el profesor **Fabrizio Carlassara**.
+Este proyecto fue desarrollado como parte del curso de **Sistemas Embebidos** de la **Universidad Tecnológica Nacional – Facultad Regional Avellaneda**, con el objetivo de poner en práctica los conceptos de programación concurrente en sistemas de tiempo real.
 
-La aplicación consiste en un sistema embebido multitarea basado en el microcontrolador **NXP LPC845 Breakout**, utilizando el sistema operativo en tiempo real **FreeRTOS**. El sistema es capaz de medir la iluminación ambiente, comparar el valor con un setpoint configurable, y accionar salidas visuales y sonoras en consecuencia. Se integraron múltiples periféricos y se emplearon técnicas de sincronización mediante colas, semáforos y exclusión mutua.
+El trabajo consistió en diseñar una aplicación funcional que simula un sistema de control de iluminación. Se integraron sensores, salidas visuales y sonoras, y mecanismos de interacción con el usuario, utilizando tareas coordinadas a través de **FreeRTOS**. El desarrollo implicó tanto la programación en C como el uso del entorno **MCUXpresso IDE** y el microcontrolador **LPC845-BRK**, promoviendo una experiencia de aprendizaje integral y aplicada.
 
 ## Integrantes
 
@@ -30,8 +30,4 @@ El sistema realiza las siguientes funciones principales:
 - **IDE:** MCUXpresso IDE  
 - **Sistema operativo:** FreeRTOS  
 - **SDK:** LPC845 SDK oficial  
-
-## Conclusiones
-
-Este trabajo integrador nos permitió afianzar los conocimientos adquiridos en el curso, desarrollar habilidades técnicas aplicadas a sistemas en tiempo real y fortalecer la capacidad de trabajo en equipo. Logramos implementar una aplicación embebida funcional, resolviendo desafíos de integración entre tareas, sensores y periféricos.
 
