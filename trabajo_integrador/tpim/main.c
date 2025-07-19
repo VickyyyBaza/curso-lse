@@ -23,4 +23,5 @@ int main(void)
     xTaskCreate(tsk_console_monitor, "Console", tsk_console_monitor_STACK, NULL, tsk_console_monitor_PRIORITY, NULL);
 
     vTaskStartScheduler();
+    // cocachon123
 }
